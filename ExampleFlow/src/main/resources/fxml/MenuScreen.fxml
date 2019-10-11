@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenuController">
+   <children>
+      <Button fx:id="buttonApp" layoutX="170.0" layoutY="124.0" mnemonicParsing="false" onAction="#openApplication" text="Aplikacja" />
+      <Button fx:id="buttonOpt" layoutX="178.0" layoutY="188.0" mnemonicParsing="false" onAction="#openOption" text="Opcje" />
+      <Button fx:id="buttonEx" layoutX="174.0" layoutY="250.0" mnemonicParsing="false" onAction="#exit" text="Wyjscie" />
+   </children>
+</Pane>
